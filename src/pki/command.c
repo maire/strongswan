@@ -158,7 +158,7 @@ void command_register(command_t command)
 				break;
 			}
 		}
-		if (i < countof(cmds[registered].options) - 3)
+		if (countof(cmds[registered].options) - 3 > MAX_OPTIONS)
 		{
 			fprintf(stderr, "command '%s' registered too many options, please "
 					"increase MAX_OPTIONS\n", command.cmd);
