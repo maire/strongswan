@@ -17,10 +17,10 @@
 # Source function library.
 . /etc/rc.d/init.d/functions
 
-exec="@SBINDIR@/@IPSEC_SCRIPT@"
-prog="strongswan"
+exec="@sbindir@/@ipsec_script@"
+prog="ipsec"
 status_prog="starter"
-config="/etc/strongswan/strongswan.conf"
+config="/etc/strongswan.conf"
 
 lockfile=/var/lock/subsys/$prog
 

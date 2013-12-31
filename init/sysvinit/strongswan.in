@@ -18,9 +18,9 @@
 . /etc/rc.d/init.d/functions
 
 exec="@sbindir@/@ipsec_script@"
-prog="strongswan"
+prog="ipsec"
 status_prog="starter"
-config="/etc/strongswan/strongswan.conf"
+config="/etc/strongswan.conf"
 
 lockfile=/var/lock/subsys/$prog
 
