@@ -1334,6 +1334,7 @@ AC_CONFIG_FILES([
 	man/Makefile
 	init/Makefile
 	init/systemd/Makefile
+	init/sysvinit/Makefile
 	src/Makefile
 	src/include/Makefile
 	src/libstrongswan/Makefile
